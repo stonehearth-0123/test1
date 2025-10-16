@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+/* ホームページ */
+ body { 
+    background-color: lightgreen; 
+} 
+
+header {
+    width: 100%;
+}
+
+nav {
+    width: 400px;
+    margin: 0 auto;
+}
+
+nav ul {
+    width: 400px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+nav ul li {
+    width: 33.3%;
+    text-align: center;
+    border-color: black;
+    border-style: solid;
+}
+
+/* テトリスのページ */
+#container {
+    margin: 0 auto;
+}
